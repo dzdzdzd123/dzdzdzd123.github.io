@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>FontEditor</title>
-    <link rel="shortcut icon" href="https://kekee000.github.io/fonteditor/dep/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
-<link href="static/css/index-9b61fd3c.css" rel="stylesheet"></head>
+    <link rel="shortcut icon" href="dep/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./dep/bootstrap/css/bootstrap.min.css">
+<link href="css/index-9b61fd3c.css" rel="stylesheet"></head>
 <body>
 
     <section class="navbar" role="navigation">
@@ -25,9 +25,9 @@
                     <span class="ico i-down"></span>
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                    <li data-disabled="1" data-action="import" title="导入svg格式字体文件"><a>导入svg</a></li>
-                    <li data-disabled="1" data-action="import-pic" title="导入包含字形的图片"><a>导入图片</a></li>
-                    <li data-disabled="1" data-action="import" title="导入ttf,woff,eot,otf格式字体文件"><a>导入字体文件</a></li>
+                    <li data-disabled="1" data-action="import"  title="导入svg格式字体文件"><a>导入svg</a></li>
+                    <li data-disabled="1" data-action="import-pic"  title="导入包含字形的图片"><a>导入图片</a></li>
+                    <li data-disabled="1" data-action="import"  title="导入ttf,woff,eot,otf格式字体文件"><a>导入字体文件</a></li>
                     <li data-action="add-online"><a>加载线上字体</a></li>
                     <li data-action="add-url"><a>从URL加载字体</a></li>
                     <li data-action="sync-from-server"><a>从服务器同步字体</a></li>
@@ -92,11 +92,11 @@
         </div>
 
         <div class="switch-lang">
-            <a href="">中文</a> |
-            <a href="index-en.html">English</a>
+            <a href="./index.html">中文</a> |
+            <a href="./index-en.html">English</a>
         </div>
-        <a class="ico i-github forkme" href="javascript:;" target="_blank">Fork me on Github</a>
-        <a class="ico i-help userguide" href="index1.html" target="_blank">帮助</a>
+        <a class="ico i-github forkme" href="https://www.baidu.com" target="_blank">Fork me on Github</a>
+        <a class="ico i-help userguide" href="https://kekee000.github.io/fonteditor-doc/" target="_blank">帮助</a>
     </section>
 
     <section class="sidebar">
@@ -119,7 +119,7 @@
     <section class="editor">
         <ul id="editor-commandmenu" class="command-groups"></ul>
         <i class="ico i-leave close-editor" title="点击或者按`F2`键关闭编辑器"></i>
-        <div id="glyf-editor" class="glyf-editor" oncontextmenu="return false"></div>
+        <div id="glyf-editor" class="glyf-editor" oncontextMenu="return false"></div>
     </section>
 
 
@@ -146,10 +146,10 @@
 
     <form id="font-form" style="width:0px;height:0px;overflow:hidden;"><input id="font-import" type="file" multiple="multiple"></form>
     <iframe id="sync-frame" name="sync-frame" width="0" height="0" frameborder="0" style="display:none;"></iframe>
-    <script src="static/js/jquery.min1.js"></script>
-    <script src="static/js/jqColorPicker.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script src="static/js/hidpi-canvas.js"></script>
+    <script src="./dep/jquery.min.js"></script>
+    <script src="./dep/jqColorPicker.min.js"></script>
+    <script src="./dep/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./dep/hidpi-canvas.js"></script>
     <script>
         window.language = 'zh-cn';
     </script>
@@ -163,5 +163,5 @@
       s.parentNode.insertBefore(hm, s);
     })();
     </script>
-<script type="text/javascript" src="static/js/index-9b61fd3c.js"></script></body>
+<script type="text/javascript" src="js/index-9b61fd3c.js"></script></body>
 </html>
